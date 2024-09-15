@@ -99,7 +99,7 @@ if "chat_history" not in st.session_state:
     st.session_state.chat_history = []
 
 # Title of page
-st.title("--A.I. Teacher--👨‍💻")
+st.title("  ")
 
 # Add a button to toggle Socratic Mode
 if "socratic_mode" not in st.session_state:
