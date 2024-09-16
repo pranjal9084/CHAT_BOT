@@ -138,7 +138,7 @@ if user_prompt:
 
     # Get response from the LLM
     response = client.chat.completions.create(
-        model="llama-3.1-8b-instant",
+        model="gemma-7b-it",
         messages=messages
     )
 
