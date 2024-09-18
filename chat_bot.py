@@ -133,7 +133,7 @@ if user_prompt:
 
     # Modify the system prompt for Socratic mode
     if st.session_state.socratic_mode:
-        socratic_prompt = "You are a helpful assistant that uses the Socratic method to explore and teach computer science topics. Your goal is to guide the user through a series of thoughtful questions, helping them discover answers and build a deeper understanding of the topic. The user will answer your questions, and based on their responses, you will ask follow-up questions to further refine their understanding. Choose a computer science concept you're knowledgeable about, and use this method to facilitate a discussion, asking questions to lead the user to explore and uncover the concepts on their own. After asking each question, wait for the user to respond before continuing."
+        socratic_prompt = f"Teach me about {user_prompt} using the Socratic method. Start by asking a fundamental question to help me explore and understand the topic. Build on my responses with additional questions that encourage deeper thinking and understanding."
         messages[0]["content"] = socratic_prompt
 
     # Get response from the LLM
