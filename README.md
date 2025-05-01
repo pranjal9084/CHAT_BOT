@@ -41,9 +41,9 @@ GROQ_API_KEY=your_groq_api_key
 ---
 
 ## Run the chatbot:
-
-streamlit run app.py
-
+```python
+streamlit run chat_bot.py
+```
 📁 File Structure
 
 .
